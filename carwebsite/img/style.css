@@ -1,0 +1,115 @@
+#hovertime :hover{
+    transition: .5s ease-in-out;
+    color: blue !important;
+
+    
+}
+#carhide{
+    display: none;
+}
+#hometext{
+    line-height: 55px;
+    word-spacing: 4px;
+}
+.homeh1{
+    font-size: 40px !important;
+}
+#footerimgback{
+    background-image: url(callout-img-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width:1000px){
+    #nav2text,#navbarText{
+      padding-left: 0px !important;
+        margin-left: 0px !important;
+        
+    }
+    .navbarbtn{
+        align-items: center !important;
+        text-align: center !important;
+       
+    }
+   #hometextbox,#hometextcontainer{
+    padding-top: 0px !important;
+   }
+   #car{
+    margin-top: 40px !important;
+   }
+   #section2col{
+    text-align: center !important;
+    padding-bottom: 50px !important;
+   }
+   .section2{
+    display: none;
+   }
+   #carhide{
+    display: block;
+   }
+   #section4{
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+   }
+}
+@media (max-width:1200px){
+    #hometextbox{
+        padding-top: 0px !important;
+        gap: 30px !important;
+    }
+    #car{
+        padding-top: 30px !important;
+        
+    }
+    #hometext{
+        font-size: 30px !important;
+        line-height: 40px;
+    }
+}
+@media (max-width:600px){
+    #hometextbox{
+        padding-top: 0px !important;
+        gap: 30px !important;
+    }
+    #car{
+        padding-top: 30px !important;
+        
+    }
+    #hometext{
+        font-size: 30px !important;
+        line-height: 40px;
+    }
+    #hometextcontainer{
+        padding-top: 0px !important;
+    }
+    #playstore{
+        padding-top: 0px !important;
+    }
+    #homecontainer{
+        padding-top: 0px !important;
+    }
+    #row1{
+        flex-direction: column-reverse !important;
+    }
+   #navoptions{
+    width: 100%;
+    background-color: #fff;
+    height: 50px;
+    margin-left: 0px !important;
+    
+   }
+   #section2col{
+    text-align: center !important;
+    
+   }
+   .section2{
+    display: none;
+   }
+   #cars{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    
+    margin-top: 0px !important;
+   }
+}
